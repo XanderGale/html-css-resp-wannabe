@@ -89,6 +89,8 @@ img {
   #lezioni .row>.right {
     width: 50%;
     float: none;
+  }
+  #lezioni .row{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
