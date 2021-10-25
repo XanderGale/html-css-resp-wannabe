@@ -87,17 +87,30 @@ img {
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: 50%;
+    width: 80%;
+    margin-bottom: 30px;
     float: none;
   }
-  #lezioni .row{
+  body div .row{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
   }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 30px;
+}
   img {
-    margin-top: 10px;
-    height: 50px;
+    height: 100px;
   }
 }
